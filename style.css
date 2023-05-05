@@ -1,0 +1,99 @@
+/* Style version statique My-Bee-Notebook */
+
+/* Reset */
+html{
+ margin: 0;
+ padding: 0;
+}
+
+
+/* Charte graphique 
+Google fonts : "pacifico", cursive;
+               "comfortaa", cursive;
+
+Couleurs : jaune or métallique      #e2b415
+           marron chamoisée         #bb8a69
+           vert foncé cal poly vert #145619
+           bleu clair alice bleu    #e4ecf1
+           gris foncé charbon       #243B4A
+*/
+
+/* Global */
+h2{
+    font-family: "pacifico", cursive;
+    font-size: 35px;
+}   
+/* HEADER */
+nav{
+    background-color: #243B4A;
+}
+.navbar img{
+    width: 12%;
+}
+.navbar p{
+    font-family: "pacifico", cursive;
+    color: #e2b415;
+    font-size: x-large;
+}
+.navbar a{
+    font-family: "comfortaa", cursive;
+    color: #e2b415;
+    font-size:x-large;
+}
+
+    
+/* ACCUEIL */
+
+#accueil{
+background-image:url(./ressources/belle-nature-retro-lavande.jpg);
+height: 130vh;
+background-position: left;
+background-size: cover;
+
+}
+
+h1{
+    font-family: "pacifico", cursive;
+    color: #243B4A;
+    padding-bottom: 40px;
+    font-size:45px;
+}
+#accueil p{
+    font-family: "comfortaa", cursive;
+    color: #243B4A;
+    font-size: large;
+    font-weight: 800;
+}
+button{
+    text-decoration: none;
+    background-color: #e2b415;
+    color: #243B4A ;
+    border-radius: 20px 5px 20px 5px;
+    padding: 15px;
+    font-size: larger;
+    font-weight: 1000;
+    font-family: "comfortaa", cursive;
+    margin-right: 65px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px #243B4A;
+    transition: 1s;
+}
+button:hover{
+    background-color:#243B4A;
+    color: #e2b415 ;
+    border-radius: 20px 5px 20px 5px;
+    box-shadow: 5px 5px 5px #243B4A;
+}
+
+/* RUCHER */
+#ruchers{
+    background-color: #243B4A;
+    height: 150vh;
+    padding: 30px;
+}
+#ruchers h2{
+    color: #e2b415;
+}
+#ruchers img{
+    width: 20%;
+}
