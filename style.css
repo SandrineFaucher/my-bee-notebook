@@ -27,7 +27,7 @@ h2{
 nav{
     background-color: #243B4A;
 }
-.navbar img{
+.logo{
     width: 12%;
 }
 .navbar p{
@@ -93,7 +93,40 @@ button:hover{
 }
 #ruchers h2{
     color: #e2b415;
+    margin-bottom: 30px;
+}
+h3, h4{
+    font-family: "comfortaa", cursive;
+    color: #e2b415;
+    font-size: small;
 }
 #ruchers img{
     width: 20%;
+}
+#ruchers p{
+    font-family: "comfortaa", cursive;
+    color: #e2b415;
+    font-size: small;
+}
+
+/* AVANTAGES */
+
+#avantages h2{
+    color: #243B4A;
+}
+#avantages{
+    height: 100vh;
+    background-color: #e4ecf1;
+}
+/* FOOTER */
+/* Logo */
+#logo{
+    height: 30vh;
+    background-color: #e2b415;
+}
+/* Logo */
+#mentions{
+    height: 10vh;
+    background-color: #243B4A;
+    color: #e2b415;
 }
