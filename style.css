@@ -22,7 +22,21 @@ Couleurs : jaune or métallique      #e2b415
 h2{
     font-family: "pacifico", cursive;
     font-size: 35px;
-}   
+}  
+p{
+    font-family: "comfortaa", cursive;
+    font-size:large;
+} 
+h3{
+    font-family: "comfortaa", cursive;
+    color: #e2b415;
+    text-decoration: underline;
+}
+h4{
+    font-family: "comfortaa", cursive;
+    color: #e2b415;
+}
+
 /* HEADER */
 nav{
     background-color: #243B4A;
@@ -45,7 +59,7 @@ nav{
 /* ACCUEIL */
 
 #accueil{
-background-image:url(./ressources/belle-nature-retro-lavande.jpg);
+background-image:url(./ressources/image-abeille-lavande-web.jpg);
 height: 130vh;
 background-position: left;
 background-size: cover;
@@ -88,45 +102,100 @@ button:hover{
 /* RUCHER */
 #ruchers{
     background-color: #243B4A;
-    height: 150vh;
-    padding: 30px;
+    padding: 20px;
+    width: auto;
 }
 #ruchers h2{
     color: #e2b415;
     margin-bottom: 30px;
-}
-h3, h4{
-    font-family: "comfortaa", cursive;
-    color: #e2b415;
-    font-size: small;
-}
+}   
 #ruchers img{
     width: 20%;
 }
 #ruchers p{
-    font-family: "comfortaa", cursive;
     color: #e2b415;
-    font-size: small;
 }
+.square-text{
+    text-align: justify;
+    text-justify: inter-word;
+    width: 30%;
+}
+.square-text p{
+    font-size: larger;
+}
+.square-beehive{
+    box-shadow:0px 0px 6px #e2b415;
+    margin-left: 10px;
+}
+
 
 /* AVANTAGES */
 
 #avantages h2{
     color: #243B4A;
+    margin-bottom: 30px;
 }
 #avantages{
-    height: 100vh;
     background-color: #e4ecf1;
+    padding: 30px;
+}
+#avantages button{
+    background-color: #e4ecf1;
+    box-shadow: none;
+}
+.carousel-control-prev-icon{
+    background-color: #243B4A;
+}
+.carousel-control-next-icon{
+    background-color: #243B4A;
+}
+#avantages img{
+    width: 20vw;
+    padding:30px;
+}
+#avantages p{
+    color: #243B4A;
+    font-weight: 900;
+    font-size:large;
 }
 /* FOOTER */
 /* Logo */
 #logo{
-    height: 30vh;
     background-color: #e2b415;
 }
 /* Logo */
 #mentions{
-    height: 10vh;
     background-color: #243B4A;
     color: #e2b415;
+    font-size: medium;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:1280px)
+{
+    .square-text{
+        text-align: justify;
+        text-justify: inter-word;
+        width: 100%;
+        order: 0;
+    }
+    .container-objects{
+        flex-direction: column-reverse;
+    }
+    #avantages img{
+        width: 40vw;
+        padding:30px;
+    }
+    #avantages button{
+        opacity:1;
+    }
+    .carousel-control-next{
+        margin-right: 0;
+    }
+    #logo img{
+        width: 30%;
+    }
+
+}
+

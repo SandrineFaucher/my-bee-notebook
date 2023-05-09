@@ -1,0 +1,108 @@
+/* Style version statique My-Bee-Notebook 
+PAGE : CONTACT */
+
+/* Reset */
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Charte graphique 
+   Google fonts : "pacifico", cursive;
+                  "comfortaa", cursive;
+   
+   Couleurs : jaune or métallique      #e2b415
+              marron chamoisée         #bb8a69
+              vert foncé cal poly vert #145619
+              bleu clair alice bleu    #e4ecf1
+              gris foncé charbon       #243B4A
+   */
+
+/* Global */
+h2 {
+    font-family: "pacifico", cursive;
+    font-size: 35px;
+}
+
+p {
+    font-family: "comfortaa", cursive;
+    font-size: large;
+}
+
+h3 {
+    font-family: "comfortaa", cursive;
+    color: #e2b415;
+    text-decoration: underline;
+}
+
+h4 {
+    font-family: "comfortaa", cursive;
+    color: #e2b415;
+}
+
+/* HEADER */
+nav {
+    background-color: #243B4A;
+}
+
+.logo {
+    width: 12%;
+}
+
+.navbar p {
+    font-family: "pacifico", cursive;
+    color: #e2b415;
+    font-size: x-large;
+}
+
+.navbar a {
+    font-family: "comfortaa", cursive;
+    color: #e2b415;
+    font-size: x-large;
+}
+
+/* MAIN */
+
+main img {
+    width: 100%;
+}
+
+.imput-group {
+    width: 50%;
+}
+
+form {
+    height: 70vh;
+    margin: 20px;
+}
+
+address {
+    font-size: larger;
+    margin: 20px;
+}
+
+
+
+
+/* FOOTER */
+/* Logo */
+#logo {
+    background-color: #e2b415;
+}
+
+/* Logo */
+#mentions {
+    background-color: #243B4A;
+    color: #e2b415;
+    font-size: medium;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:1280px) {
+    #logo img {
+        width: 30%;
+    }
+
+}
