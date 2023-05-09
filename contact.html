@@ -48,42 +48,50 @@
         </nav>
     </header>
     <main>
+        <section id="banniere">
+            <div class="col-md-5">
+                <h1 class="text-center">Me contacter</h1>
+            </div>
+        </section>
 
-        <img src="./ressources/apiculteur-au-telephone.jpg" alt="apiculteur-telephone">
-        <form method="post" action="traitement.php">             
+        <form method="post" action="traitement.php">
+            <h2 class="text-center m-5">Formulaire de contact</h2>
+            <div class="formulaire">
             <div class="input-group mb-3">
                 <span class="input-group-text" id="inputGroup-sizing-default">Nom :</span>
-                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-              </div>
-              <div class="input-group mb-3">
+                <input type="text" class="form-control" aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-default">
+            </div>
+            <div class="input-group mb-3">
                 <span class="input-group-text" id="inputGroup-sizing-default">Prénom :</span>
-                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-              </div>
-              <div class="input-group mb-3">
+                <input type="text" class="form-control" aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-default">
+            </div>
+            <div class="input-group mb-3">
                 <input type="text" class="form-control" placeholder="Username" aria-label="Username">
                 <span class="input-group-text">@</span>
                 <input type="text" class="form-control" placeholder="Server" aria-label="Server">
-              </div>
-              
-              <div class="input-group">
+            </div>
+
+            <div class="input-group">
                 <span class="input-group-text">Votre commentaire</span>
                 <textarea class="form-control" aria-label="With textarea"></textarea>
-              </div>
-              <imput type="submit" value="envoyer">Envoyer</imput>
-              
+            </div>
+            <imput class="envoi" type="submit" value="envoyer">Envoyer</imput>
+        </div>
 
-              <address class="text-center">
-                <p>Me contacter :</p>
-                <a class="m-5" href="mailto:jim@rock.com">sandrinefaucher2606@gmail.com</a><br>
+            <address class="text-center">
+                <p class="mx-auto">Me contacter :</p>
+                <a class="m-5 mx-auto" href="mailto:jim@rock.com">sandrinefaucher2606@gmail.com</a><br>
                 <p class="m-5">06 98 69 55 99</p>
-              </address>
-              
+            </address>
+
         </form>
-        
+
 
         <footer>
             <div id="logo" class="text-center p-5">
-                <a href="#image-ruches">
+                <a href="#banniere">
                     <img src="./ressources/logo-2-my-bee-notebook.png" class="logo" alt="logo-du-site">
                 </a>
             </div>

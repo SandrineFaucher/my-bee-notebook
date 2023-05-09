@@ -19,6 +19,11 @@ html{
    */
    
    /* Global */
+   h1{
+     font-family: "pacifico", cursive;
+     color: #243B4A;
+     font-size: 50px;
+   }
    h2{
        font-family: "pacifico", cursive;
        font-size: 35px;
@@ -54,12 +59,23 @@ html{
        color: #e2b415;
        font-size:x-large;
    }
+   button:hover{
+    background-color:#243B4A;
+    color: #e2b415 ;
+    border-radius: 20px 5px 20px 5px;
+    box-shadow: 5px 5px 5px #243B4A;
+}
     /* MAIN */
-
-    main img{
-        width: 100%;
-        height: auto;
+   #banniere{
+    background-image: url(./ressources/banniere-ou-trouver-des-ruches-png.png.webp);
+    height: 120vh;
+    background-position: top;
+    background-size: cover; 
+   }
+    #banniere h1{
+        padding-top: 80vh;
     }
+
       
    /* RUCHER */
    #ruchers{

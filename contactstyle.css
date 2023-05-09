@@ -20,14 +20,16 @@ html {
    */
 
 /* Global */
+h1 {
+    font-family: "pacifico", cursive;
+    color: #243B4A;
+    font-size: 50px;
+}
+
 h2 {
     font-family: "pacifico", cursive;
     font-size: 35px;
-}
-
-p {
-    font-family: "comfortaa", cursive;
-    font-size: large;
+    color: #243B4A;
 }
 
 h3 {
@@ -39,6 +41,11 @@ h3 {
 h4 {
     font-family: "comfortaa", cursive;
     color: #e2b415;
+}
+
+p {
+    font-family: "comfortaa", cursive;
+    font-size: large;
 }
 
 /* HEADER */
@@ -62,24 +69,43 @@ nav {
     font-size: x-large;
 }
 
-/* MAIN */
-
-main img {
-    width: 100%;
+button:hover {
+    background-color: #243B4A;
+    color: #e2b415;
+    border-radius: 20px 5px 20px 5px;
+    box-shadow: 5px 5px 5px #243B4A;
 }
 
-.imput-group {
-    width: 50%;
+/* MAIN */
+#banniere {
+    background-image: url(./ressources/apiculteur-au-telephone.jpg);
+    height: 120vh;
+    background-position: top;
+    background-size: cover;
+}
+
+#banniere h1 {
+    padding-top: 80vh;
 }
 
 form {
-    height: 70vh;
-    margin: 20px;
+    height: 80vh;
+    margin-left: 30px;
+    
 }
-
+.formulaire{
+    width: 80vw;
+    font-family: "comfortaa", cursive;
+}
+.envoi{
+    border-radius: 20px 5px 20px 5px;
+    box-shadow: 5px 5px 5px #243B4A;
+    padding: 15px;
+}
 address {
     font-size: larger;
-    margin: 20px;
+    margin-top: 30px;
+    
 }
 
 
