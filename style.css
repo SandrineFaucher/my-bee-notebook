@@ -1,12 +1,5 @@
 /* Style version statique My-Bee-Notebook */
 
-/* Reset */
-html{
- margin: 0;
- padding: 0;
-}
-
-
 /* Charte graphique 
 Google fonts : "pacifico", cursive;
                "comfortaa", cursive;
@@ -18,23 +11,37 @@ Couleurs : jaune or métallique      #e2b415
            gris foncé charbon       #243B4A
 */
 
+/* SOMMAIRE *
+INDEX.HTML
+CONCEPT.HTML
+CONTACT.HTML 
+/
+
+
 /* Global */
 h2{
     font-family: "pacifico", cursive;
     font-size: 35px;
 }  
+
 p{
     font-family: "comfortaa", cursive;
     font-size:large;
+    color: #243B4A;
+    font-weight: 600;
 } 
+
 h3{
     font-family: "comfortaa", cursive;
-    color: #e2b415;
-    text-decoration: underline;
+    color: #243B4A;
+    font-weight: 600;
+    
 }
+
 h4{
     font-family: "comfortaa", cursive;
-    color: #e2b415;
+    color: #243B4A;
+    font-weight: 600;
 }
 
 /* HEADER */
@@ -55,11 +62,13 @@ nav{
     font-size:x-large;
 }
 
-    
+/*INDEX.HTML
+-------------------*/
+
 /* ACCUEIL */
 
 #accueil{
-background-image:url(./ressources/image-abeille-lavande-web.jpg);
+background-image:url(./ressources/image-abeille-lavande.jpg);
 height: 130vh;
 background-position: left;
 background-size: cover;
@@ -68,15 +77,17 @@ background-size: cover;
 
 h1{
     font-family: "pacifico", cursive;
-    color: #243B4A;
+    color: white;
     padding-bottom: 40px;
     font-size:45px;
+    text-shadow: #243B4A 1px 0 10px;
 }
 #accueil p{
     font-family: "comfortaa", cursive;
-    color: #243B4A;
-    font-size: large;
+    color: white;
+    font-size:larger;
     font-weight: 800;
+    text-shadow: #243B4A 1px 0 10px;
 }
 button{
     text-decoration: none;
@@ -113,7 +124,7 @@ button:hover{
     width: 20%;
 }
 #ruchers p{
-    color: #e2b415;
+    color: #243B4A
 }
 .square-text{
     text-align: justify;
@@ -199,3 +210,113 @@ button:hover{
 
 }
 
+/*CONCEPT.HTML
+-------------------*/
+
+/* MAIN */
+#banniere{
+    background-image: url(./ressources/banniere-ou-trouver-des-ruches-png.png.webp);
+    height: 120vh;
+    background-position: top;
+    background-size: cover; 
+   }
+    #banniere h1{
+        padding-top: 80vh;
+    }
+
+      
+   /* RUCHER */
+   #ruchers{
+       background-color: #e4ecf1;
+       padding: 20px;
+       width: auto;
+       
+   }
+   #ruchers h2{
+       color: #243B4A;
+       margin-bottom: 30px;
+   }   
+   #ruchers img{
+       width: 20%;
+   }
+   #ruchers p{
+       color:#243B4A;
+   }
+   .square-text{
+       text-align: justify;
+       text-justify: inter-word;
+       width: 30%;
+   }
+   .square-text p{
+       font-size: larger;
+   }
+   .square-beehive{
+       box-shadow:0px 0px 6px #243B4A;
+       margin-left: 10px;
+   }
+      
+      
+   /* MEDIA QUERIES */
+   
+   @media screen and (max-width:1280px)
+   {
+       .square-text{
+           text-align: justify;
+           text-justify: inter-word;
+           width: 100%;
+           order: 0;
+       }
+       .container-objects{
+           flex-direction: column-reverse;
+       }
+       
+       #logo img{
+           width: 30%;
+       }
+    }
+   
+   /*CONTACT.HTML
+-------------------*/
+/* MAIN */
+
+#titre-formulaire-contact{
+    color: #243B4A;
+}
+#banniere {
+    background-image: url(./ressources/apiculteur-au-telephone.jpg);
+    height: 120vh;
+    background-position: top;
+    background-size: cover;
+}
+
+#banniere h1 {
+    padding-top: 80vh;
+}
+
+form {
+    height: 80vh;
+    margin-left: 30px;
+    
+}
+.formulaire{
+    width: 80vw;
+    font-family: "comfortaa", cursive;
+}
+.envoi{
+    border-radius: 20px 5px 20px 5px;
+    box-shadow: 5px 5px 5px #243B4A;
+    padding: 15px;
+}
+
+address {
+    font-size: larger;
+    margin-top: 30px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:1280px) {
+    #logo img {
+        width: 30%;
+    }
+}
